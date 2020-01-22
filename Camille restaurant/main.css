@@ -1,0 +1,493 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: "Lato";
+
+}
+
+.logo{
+    padding:25px;
+}
+
+.left-menu{
+    width: 30%;
+    
+    background: rgb(46, 44, 44);
+    text-align: center;
+    position: fixed;
+    
+    
+    
+    
+}
+
+.nav label {
+    margin: 0 40px 0 0;
+    font-size: 26px;
+    line-height: 70px;
+    display: none;
+    width: 26px;
+    float: right;
+    
+}
+
+#toggle {
+    display: none;
+}
+
+.nav{
+    color: white;
+    
+    
+}
+
+.nav ul{
+    text-transform: uppercase;
+    padding-bottom: 10%;
+   
+  
+    
+}
+
+.nav li{
+    
+   
+    font-size: 20px;
+    color: gray;
+    
+}
+.menu{
+    list-style-type:none;
+   
+    
+}
+
+.menu li{
+    padding: 10px;
+   
+    
+    
+}
+
+li{
+    list-style-type: none;
+    
+}
+
+.D{
+    display: none;
+    position: absolute;
+    left:400px;
+    top:180px;
+    background: rgb(46, 44, 44);
+    z-index: 1;
+    
+    
+    
+    
+   
+}
+
+
+.D li{
+    
+    color:gray;
+    
+    display: block;
+    padding: 20px;
+    margin:0 auto;
+   
+}
+
+
+.porfolios:hover .D{
+    display: block;
+    
+
+    
+}
+
+
+
+.D{
+    list-style-type:none;
+   
+    
+}
+
+.D li{
+   
+    width: 200px;
+    height: 10%;
+    
+}
+
+li{
+    list-style-type: none;
+    
+}
+.map{
+    margin-bottom: 50px;
+}
+
+
+.main{
+    width: 70%;
+    height: 450px;
+    margin-left:30%;
+    background-image: url("https://i1.wp.com/camille.la-studioweb.com/wp-content/uploads/2018/05/m27-s1.jpg?fit=1920%2C1008&zoom=2&ssl=1");    
+    background-size: cover;
+    position: relative;
+    z-index: -1;
+    
+    
+    
+}
+
+.content{
+    color: white;
+    text-align: right;
+    background-color:rgba(255, 255, 255, 0.103);
+    padding-bottom: 20px;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+
+}
+
+.content h1{
+    padding: 20px;
+}
+
+.content p {
+    padding-right: 20px;
+}
+
+.container{
+    width: 70%;
+    margin-left:30%;
+    text-align: center;
+}
+
+.content-1{
+   padding:30px;
+    background: rgb(230, 221, 221);
+}
+
+.content-1 img {
+    margin-top:20px;
+    padding-bottom: 20px;
+
+}
+
+h3{
+    color:goldenrod;
+    font-style: italic;
+    font-size: 30px;
+    padding-bottom: 5px;
+}
+
+.content-2{
+    padding: 30px;
+}
+
+.boxes{
+    display: flex;
+    margin:50px;
+}
+
+.box33{
+    width: 33%;
+    border: 1px solid gray;
+    position: relative;
+    padding-top: 30px;
+}
+
+
+.heading{
+    position: absolute;
+    top:-20px;
+    background: white;
+    left:50px;
+    padding: 0 20px;
+}
+
+.heading1{
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px gray solid;
+    margin:10px;
+    padding: 6px;
+    text-align: left;
+
+
+}
+
+.heading2{
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px gray solid;
+    margin:10px;
+    padding: 6px;
+    text-align: left;
+
+}
+
+.cake{
+    width: 50%;
+    
+   
+}
+.price{
+    width: 20%;
+    
+   
+}
+
+.pcs{
+    padding: 20px;
+}
+
+
+.pcsbox{
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 30px;
+}
+
+.mainpcs{
+    width: 100%;
+    height: 300px;
+    background-image: url("https://i0.wp.com/camille.la-studioweb.com/wp-content/uploads/2018/04/m27-pf1.jpg?fit=1920%2C718&zoom=2&ssl=1");
+    background-size: cover;
+}
+
+.leftpcs{
+    width: 50%;
+    height: 300px;
+    background-image: url("https://i0.wp.com/camille.la-studioweb.com/wp-content/uploads/2018/04/m27-pf2.jpg?fit=960%2C714&zoom=2&ssl=1");
+    background-size: cover;
+}
+
+.rightpcs{
+    width: 50%;
+    height: 300px;
+    background-image: url("https://i2.wp.com/camille.la-studioweb.com/wp-content/uploads/2018/04/m27-pf3.jpg?fit=960%2C714&zoom=2&ssl=1");
+    background-size: cover;
+}
+
+.stars{
+    margin:20px;
+}
+
+.content-3 p{
+    margin:20px;
+}
+
+.content-3 h4{
+    color: rgba(128, 128, 128, 0.74);
+    font-size: 20px;
+}
+
+.main-form{
+    background: rgb(252, 250, 250);
+    margin-top:50px;
+    padding: 40px;
+}
+
+.form-1{
+    width: 70%;
+    margin:50px auto;
+    display: flex;
+    flex-wrap: wrap;
+ 
+}
+
+.account-info{
+    border: none;
+}
+
+.form-input{
+    width: 48%;
+    margin:5px;
+    padding: 15px;
+}
+
+.form-input-1{
+    width: 100%;
+    margin:5px;
+   
+}
+
+.btn{
+    width: 100%;
+    height: 60px;
+    color: white;
+    background-color: rgb(190, 107, 77);
+    margin:5px;
+}
+
+
+@media only screen and (max-width: 768px) {
+
+    .container{
+        width: 100%;
+        float: none;
+        text-align: center;
+        margin:0;
+    }
+
+    .left-menu{
+        position: relative;
+        width: 100%;
+        margin:0;
+        
+        
+    }
+    .menu li{
+        display: inline;
+        
+    }
+    .D{
+        position: absolute;
+        left:250px;
+        z-index: 10;
+
+        width: 20%;
+        background: rgba(128, 128, 128, 0.219);
+    }
+    .main{
+        position: none;
+        width: 100%;
+        margin:0;
+    }
+    .map{
+        display: none;
+    }
+
+    .heading{
+        left: 2px;
+        font-size: 13px;
+    }
+    .heading1{
+        margin:0;
+    }
+    .heading2{
+        margin: 0;
+    }
+   
+    .boxes{
+        margin:50px 0 0 0;
+    }
+
+    .form-input{
+        width: 100%;
+    }
+
+}
+
+@media only screen and (max-width: 425px) {
+
+    .container{
+        width: 100%;
+        float: none;
+        text-align: center;
+        margin:0;
+    }
+
+    .left-menu{
+        position: relative;
+        width: 100%;
+        margin:0;
+        
+        
+    }
+    .nav{
+        margin:0 auto;
+        padding: 0;
+       
+    }
+   
+    .nav label{
+        display: block;
+        cursor: pointer;
+        position: absolute;
+        left:20;
+        z-index: 20;
+      
+        
+       
+    }
+    .menu {
+        
+        
+        text-align: center;
+        width: 100%;
+        display: none;
+    }
+    .menu li{
+        display: block;
+        
+        
+    }
+    #toggle:checked + .menu {
+        display: block;
+    }
+
+    .D{
+       
+        position: relative;
+        z-index: 10;
+
+        width: 100%;
+        background: rgba(128, 128, 128, 0.219);
+    }
+
+    .D li{
+
+    }
+    .main{
+        position: none;
+        width: 100%;
+        margin:0;
+    }
+    .map{
+        display: none;
+    }
+
+    .heading{
+        left: 2px;
+        font-size: 13px;
+    }
+    
+    .box33{
+        width: 100%;
+       
+    }
+   
+    .boxes{
+        margin:50px 0 0 0;
+        display: block;
+    }
+
+    .heading1,.heading2{
+        margin:10px;
+    }
+
+    .pcsbox{
+        display: block;
+    }
+    .mainpcs,.leftpcs,.rightpcs{
+        width: 100%;
+    }
+
+
+    .form-input{
+        width: 100%;
+    }
+
+}
