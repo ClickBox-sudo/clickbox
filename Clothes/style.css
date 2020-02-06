@@ -17,8 +17,9 @@ header{
     
     
 }
-.black{
-    background: green;
+header.black{
+    background: black;
+    opacity: 0.5;
 }
 .left-nav h2 {
     color:red;
@@ -181,13 +182,14 @@ section{
     header{
         margin:0;
         padding: 20px 10px;
+        position: relative;
         
     }
     .right-nav label{
         display: block;
         cursor: pointer;
         position: absolute;
-        right:-15;
+        right:0;
         top:0;
         z-index: 20;
 
